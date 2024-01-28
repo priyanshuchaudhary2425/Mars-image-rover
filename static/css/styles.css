@@ -1,0 +1,51 @@
+.number-count {
+    color: #B87333;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(to right, #FF4136, #0074D9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Content Styles */
+.content {
+    margin: 20px;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;
+}
+
+.photo-item {
+    background-color: #F4F4F4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item h1 {
+    margin-bottom: 10px;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
