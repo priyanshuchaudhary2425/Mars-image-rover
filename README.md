@@ -20,13 +20,25 @@ API_KEY=your_api_key
 ````
 
 ## How to Use
-Open your terminal and run all at once:
+1. Clone the repository:
 ```bash
-git clone https://github.com/priyanshuchaudhary2425/Mars-image-rover.git && cd Mars-image-rover && pip install -r requirements.txt && python main.py
+git clone https://github.com/priyanshuchaudhary2425/Mars-image-rover.git
 ````
 
-Then open your browser at:
-[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+2. Navigate into the project folder:
+
+```bash
+cd Mars-image-rover
+```
+
+3. Run the app:
+
+```bash
+python main.py
+```
+
+4. Open your browser at:
+   [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 * Optionally, add `?sol=200` in the URL to view images from a specific Martian day, e.g.:
 
