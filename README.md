@@ -9,7 +9,7 @@ Built with **Flask** and **REST APIs**, this project helped me learn how to inte
 - Shows details: camera, rover, and earth date  
 - Web-based interface using Flask  
 
-## Requirements
+## Requirement
 1. Create a `.env` file in the project root  
 2. Get your **NASA API key** from [https://api.nasa.gov/](https://api.nasa.gov/)  
 3. Add it to your `.env` file:
